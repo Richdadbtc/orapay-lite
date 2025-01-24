@@ -12,7 +12,7 @@ class AppThemeData {
     scaffoldBackgroundColor: whiteColor,
     primaryColor: appColorPrimary,
     primaryColorDark: appColorPrimary,
-    errorColor: Colors.red,
+    cardColor: Colors.red,
     hoverColor: Colors.white54,
     dividerColor: viewLineColor,
     fontFamily: GoogleFonts.openSans().fontFamily,
@@ -29,8 +29,8 @@ class AppThemeData {
     bottomSheetTheme: BottomSheetThemeData(backgroundColor: whiteColor),
     textTheme: TextTheme(
       button: TextStyle(color: appColorPrimary),
-      headline6: TextStyle(color: textPrimaryColor),
-      subtitle2: TextStyle(color: textSecondaryColor),
+      titleLarge: TextStyle(color: textPrimaryColor),
+      titleSmall: TextStyle(color: textSecondaryColor),
     ),
     visualDensity: VisualDensity.adaptivePlatformDensity,
   ).copyWith(
